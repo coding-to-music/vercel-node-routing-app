@@ -112,3 +112,32 @@ Create a vercel.json file and put it in the root of your project folder and then
 ```
 
 Now run the command vercel again to deploy your app. Open the Production link and your app should be working online with full working routes.
+
+```java
+vercel
+```
+
+Output:
+
+```java
+Vercel CLI 23.1.2
+? Set up and deploy “/mnt/volume_nyc1_01/vercel-node-routing-app”? [Y/n] y
+? Which scope do you want to deploy to? Tom Connors
+? Found project “coding-to-music/vercel-node-routing-app”. Link to it? [Y/n] y
+🔗  Linked to coding-to-music/vercel-node-routing-app (created .vercel and added it to .gitignore)
+🔍  Inspect: https://vercel.com/coding-to-music/vercel-node-routing-app/8AX4aRasJ2KaNyn4up9XQAW4SFMZ [2s]
+✅  Preview: https://vercel-node-routing-app-coding-to-music.vercel.app [8s]
+📝  To deploy to production (vercel-node-routing-app.vercel.app), run `vercel --prod`
+```
+
+```java
+vercel --prod
+```
+
+Output:
+
+```java
+Vercel CLI 23.1.2
+🔍  Inspect: https://vercel.com/coding-to-music/vercel-node-routing-app/qkzM7s4J82jWSJunWPMQ19fAUAKG [923ms]
+✅  Production: https://vercel-node-routing-app.vercel.app [10s]
+```

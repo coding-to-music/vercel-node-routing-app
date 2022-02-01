@@ -3,6 +3,8 @@
 By Andrew Baisden
 Posted on Sep 17, 2020
 
+https://vercel-node-routing-app.vercel.app/
+
 https://github.com/coding-to-music/vercel-node-routing-app
 
 https://dev.to/andrewbaisden/how-to-deploy-a-node-express-app-to-vercel-2aa
@@ -141,3 +143,16 @@ Vercel CLI 23.1.2
 🔍  Inspect: https://vercel.com/coding-to-music/vercel-node-routing-app/qkzM7s4J82jWSJunWPMQ19fAUAKG [923ms]
 ✅  Production: https://vercel-node-routing-app.vercel.app [10s]
 ```
+
+> Why do I have a folder named ".vercel" in my project?
+> The ".vercel" folder is created when you link a directory to a Vercel project.
+
+> What does the "project.json" file contain?
+> The "project.json" file contains:
+
+- The ID of the Vercel project that you linked ("projectId")
+- The ID of the user or team your Vercel project is owned by ("orgId")
+
+> Should I commit the ".vercel" folder?
+> No, you should not share the ".vercel" folder with anyone.
+> Upon creation, it will be automatically added to your ".gitignore" file.

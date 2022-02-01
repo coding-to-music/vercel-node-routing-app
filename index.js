@@ -2,7 +2,9 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => res.send("Home Page Route"));
+app.get("/", (req, res) =>
+  res.send("Available Routes are: / /about /contact /portfolio")
+);
 
 app.get("/about", (req, res) => res.send("About Page Route"));
 
